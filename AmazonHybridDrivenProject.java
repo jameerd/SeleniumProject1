@@ -62,8 +62,8 @@ public class AmazonProject {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get(url);
 		
-		  WebElement signInbutton=driver.findElement(By.xpath(signInButton));
-		  signInbutton.click();
+		WebElement signInbutton=driver.findElement(By.xpath(signInButton));
+		signInbutton.click();
 		  
 		  Thread.sleep(1000);
 		  WebElement email1=driver.findElement(By.xpath(email));
