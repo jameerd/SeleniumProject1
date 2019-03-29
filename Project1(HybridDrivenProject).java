@@ -143,7 +143,7 @@ public class AmazonProject {
 			  WebElement sumcheck=driver.findElement(By.xpath(sumsungCheckbox));
 			  sumcheck.click();
 			  
-			 WebElement lowprice1=driver.findElement(By.xpath(lowprice));
+			  WebElement lowprice1=driver.findElement(By.xpath(lowprice));
 			  lowprice1.sendKeys("500");
 			  Thread.sleep(1000);
 			  WebElement highprice1=driver.findElement(By.xpath(highprice));
