@@ -30,13 +30,13 @@ public class MyTestingProject
 	  
 	  Thread.sleep(1000);
 	  WebElement email=driver.findElement(By.xpath("//*[@id='ap_email']"));
-	  email.sendKeys("8951072433");
+	  email.sendKeys("      ");
 	  Thread.sleep(1000);
 	  WebElement submit=driver.findElement(By.xpath("//*[@id='continue' and @type='submit']"));
 	  submit.click();
 	  Thread.sleep(1000);
 	  WebElement pass=driver.findElement(By.xpath("//*[@id=\"ap_password\"]"));
-	  pass.sendKeys("jame1996");
+	  pass.sendKeys("      ");
 	  WebElement sign=driver.findElement(By.xpath("//*[@id=\"signInSubmit\"]"));
 	  sign.click();
 	  Thread.sleep(1000);
